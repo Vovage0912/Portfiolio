@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hubert Świąder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="resources/css/fontello.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+    <script src="resources/timer.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="resources/jquery.scrollTo.min.js"></script>
+
+    <script>
+        jQuery(function($)
+        {
+        $.scrollTo(0);
+
+        $('#link1').click(function() {$.scrollTo($('#Kim_jestem_naglowek'), 1000); });
+        $('#link2').click(function() {$.scrollTo($('#Moje_doswiadczenie_naglowek'), 1000); });
+        $('#link3').click(function() {$.scrollTo($('#Wyksztalcenie_i_kursy_naglowek'), 1000); });
+        $('#link4').click(function() {$.scrollTo($('#Hobby_i_zainteresowania_naglowek'), 1000); });
+        $('#link5').click(function() {$.scrollTo($('#Gdzie_mnie_mozna_znalezc_naglowek'), 1000); });
+        $('#link6').click(function() {$.scrollTo($('#Zostaw_cos_po_sobie_naglowek'), 1000); });
+        $('#link7').click(function() {$.scrollTo($('body'), 1000); });
+        }
+        );
+
+        $(window).scroll(function()
+        {
+            if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+            else $('.scrollup').fadeOut();
+        }
+        );
+
+    </script>
+
+
+</head>
+<body onload="zegarek();">
+
+<div id="container">
+
+    <a id="link7" href="#" class="scrollup">
+        <img src="images/up.png" alt="Scroll.png">
+    </a>
+
+    <div id="menu">
+        <div class="menu_rectangle"><a id="link1" href="#">Kim jestem?</a></div>
+        <div class="menu_rectangle"><a id="link2" href="#">Moje doświadczenie</a></div>
+        <div class="menu_rectangle"><a id="link3" href="#">Wykształcenie i kursy</a></div>
+        <div class="menu_rectangle"><a id="link4" href="#">Hobby i zainteresowania</a></div>
+        <div class="menu_rectangle"><a id="link5" href="#">Gdzie mnie można znaleźć?</a></div>
+        <div class="menu_rectangle"><a id="link6" href="#">Zostaw coś po sobie :)</a></div>
+        <div class="menu_rectangle" style="border: none"><a href="resources/CV.pdf" download>Pobierz CV w wersji PDF</a></div>
+        <div style="clear:both;"></div>
+    </div>
+
+    <div id="top_bar">
+
+    <div id="cytat">
+        "Pieniądze nie dają szczęścia, tylko luksus"
+        <br>
+        <span id="cytat_podpis">~ Pan z górnego pokładu</span>
+    </div>
+
+        <div id="zegar"></div>
+
+    </div>
+
+    <div style="clear:both;"></div>
+
+    <div class="naglowek">
+        <span id="Kim_jestem_naglowek"> Kim jestem?</span>
+    </div>
+
+    <div id="Kim_jestem">
+
+        <div id="kim_jestem_opis">
+            <p text-indent="40px"> xxx.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p text-indent="40px">xxx</p>
+        </div>
+
+        <div id="zdj_profilowe">
+            <img src="images/profilowe2.jpg" alt="Obrazek1">
+        </div>
+
+    </div>
+
+    <div class="naglowek">
+        <span id="Moje_doswiadczenie_naglowek">Moje doświadczenie</span>
+    </div>
+
+    <div class="doswiadczenie">
+        <ul>
+            <li class="data_pracy">01.08.2023 -> obecnie
+            <ul class="stanowisko_pracy"> xxx | xxx | xxx </ul>
+                <p class="opis_doswiadczenia">xxx.
+                </p>
+            </li>
+            <li class="data_pracy">01.11.2022 -> 07.31.2023
+                <ul class="stanowisko_pracy"> xxx | xxx | xxx</ul>
+                <p class="opis_doswiadczenia">xxx.</p>
+            </li>
+            <li class="data_pracy">01.08.2021 -> 31.08.2021
+            <ul class="stanowisko_pracy"> xxx | xxx | xxx </ul>
+                <p class="opis_doswiadczenia">
+                    xxx.
+                </p>
+
+            </li>
+        </ul>
+    </div>
+
+    <div class="naglowek">
+        <span id="Wyksztalcenie_i_kursy_naglowek">Wykształcenie i kursy</span></div>
+
+    <div class="doswiadczenie">
+        <p class="naglowek_wyksztalcenie" style="margin-top: 30px;">Wykształcenie</p>
+
+        <ul class="wyksztalcenie_lista">
+            <li class="data_szkola">01.10.2023 -> 31.06.2024
+                <ul class="wyksztalcenie_szkola">xxx
+                    <li class="lista_wyksztalcenie" style="margin-top: 10px;">xxx</li>
+                    <li class="lista_wyksztalcenie">xxx</li>
+                    <li class="lista_wyksztalcenie" style="margin-bottom: 20px;">xxx</li>
+                </ul>
+            </li>
+            <li class="data_szkola">01.03.2022 -> 31.06.2023
+                <ul class="wyksztalcenie_szkola">xxx
+                    <li class="lista_wyksztalcenie" style="margin-top: 10px;">xxx</li>
+                    <li class="lista_wyksztalcenie">xxx</li>
+                    <li class="lista_wyksztalcenie" style="margin-bottom: 20px;">xxx</li>
+                </ul>
+            </li>
+            <li class="data_szkola">01.10.2018 -> 31.01.2022
+                <ul class="wyksztalcenie_szkola">xxx
+                    <li class="lista_wyksztalcenie" style="margin-top: 10px;">xxx</li>
+                    <li class="lista_wyksztalcenie" style="margin-bottom: 20px;">xxx</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div id="obrazek_sowy">
+            <img src="images/sowa.png" alt="Obrazek1" style="background: transparent;">
+        </div>
+
+
+        <div style="clear:both;"></div>
+
+        <p class="naglowek_wyksztalcenie">Znajomość języków</p>
+
+        <ul class="wyksztalcenie_lista">
+            <li class="jezyki_lista" style="margin-top: 15px;">Język polski: ojczysty</li>
+            <li class="jezyki_lista">Język angielski: średniozaawansowany (B2)</li>
+        </ul>
+
+        <div id="obrazek_jezyki">
+            <img src="images/language.png" alt="Obrazek3" style="background: transparent;">
+        </div>
+
+        <div style="clear:both;"></div>
+
+        <p class="naglowek_wyksztalcenie">Umiejętności</p>
+
+        <div id="umiejetnosci">
+
+            <table>
+                <tr>
+                    <td>&starf; Rysunek techniczny</td>
+                    <td>&starf; Modelowanie 3D (SolidWorks)</td>
+                    <td>&starf; Znajomość systemów PLM i ERP</td>
+                </tr>
+                <tr>
+                    <td>&starf; Obsługa podstawowych przyrządów pomiarowych</td>
+                    <td>&starf; Znajomość języka Java (poziom średniozaawansowany)</td>
+                    <td>&starf; Znajomość HTML i CSS (poziom podstawowy)</td>
+                </tr>
+                <tr>
+                    <td>&starf; Znajomość MS Excel oraz MS Office (poziom zaawansowany)</td>
+                    <td>&starf; Prawo jazdy kat. B</td>
+                    <td>&starf; Umiejętność pracy w zespole oraz komunikatywność</td>
+                </tr>
+                <tr>
+                    <td>&starf; Opanowanie i odpowiedzialność</td>
+                    <td>&starf; Znajomość techniczna i umiejętności analityczne</td>
+                    <td>&starf; Kreatywność i innowacyjność</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div id="obrazek_skills">
+            <img src="images/skills.png" alt="Obrazek4" style="background: transparent;">
+        </div>
+
+        <div style="clear:both;"></div>
+
+        <p class="naglowek_wyksztalcenie">Szkolenia, kursy, certyfikaty</p>
+
+        <ul class="wyksztalcenie_lista">
+            <li class="data_kursu" style="margin-top: 0px;">06.2023
+                <ul class="stanowisko_pracy">xxx
+                    <li class="organizator_kursu">xxx</li>
+                </ul>
+            </li>
+            <li class="data_kursu">06.2023
+                <ul class="stanowisko_pracy">xxx
+                    <li class="organizator_kursu">xxx</li>
+                </ul>
+            </li>
+            <li class="data_kursu">06.2023
+                <ul class="stanowisko_pracy">xxx
+                    <li class="organizator_kursu">xxx</li>
+                </ul>
+            </li>
+            <li class="data_kursu">01.2023
+                <ul class="stanowisko_pracy">xxx
+                    <li class="organizator_kursu">xxx</li>
+                </ul>
+            </li>
+            <li class="data_kursu">12.2021
+                <ul class="stanowisko_pracy">xxx
+                    <li class="organizator_kursu">xxx</li>
+                </ul>
+            </li>
+        </ul>
+
+
+        <div id="obrazek_certyfikat">
+            <img src="images/certyfikat.png" alt="Obrazek4" style="background: transparent;">
+        </div>
+
+        <div style="clear:both;"></div>
+
+    </div>
+
+    <div class="naglowek">
+        <span id="Hobby_i_zainteresowania_naglowek">Zainteresowania i hobby</span>
+    </div>
+
+    <div class="doswiadczenie">
+
+        <div id="szachy_gif">
+            <img src="images/szachy.gif" alt="gif1" style="background: transparent;">
+        </div>
+
+        <div id="rower_gif">
+            <img src="images/rower.png" alt="gif2" style="background: transparent;">
+        </div>
+
+        <div style="clear:both;"></div>
+
+        <p id="hobby_opis">Hobby/zainteresowanimi, które myślę, że w jakiś sposób wpływają na moją osobować są: szachy,
+            polityka (w szczególności polska), gra&nbsp;na keyboardzie, gry planszowe, jazda na rowerze, motoryzacja, sporty drużynowe
+            (w szczególności piłka nożna). Aktualnie, moim największym hobby i zarazem zainteresowaniem jest nauka programowania
+        w języku Java. Pogłębianie wiedzy z&nbsp;zakresu programowania sprawia mi wielką przyjemność, a znajdowanie rozwiązań na
+        napotykane problemy daje mi ogrom radości.</p>
+
+    </div>
+
+    <div class="naglowek">
+        <span id="Gdzie_mnie_mozna_znalezc_naglowek">Gdzie mnie można znaleźć?</span>
+    </div>
+
+    <div class="doswiadczenie">
+
+        <div id="detektyw_obrazek">
+            <img src="images/detektyw.png" alt="gif2" style="background: transparent;">
+        </div>
+
+        <div id="pudelko_socialmedia_zbior">
+
+            <div id="fb"><a href="https://www.facebook.com/" target="_blank"><i class="icon-facebook"></i></a></div>
+            <div id="linkedin"><a href="https://www.linkedin.com/" target="_blank"><i class="icon-linkedin"></i></a></div>
+            <div id="GitHub"><a href="https://github.com/Vovage0912" target="_blank"><i class="icon-github"></i></a></div>
+            <div style="clear:both;"></div>
+        </div>
+
+    </div>
+
+    <div class="naglowek">
+        <span id="Zostaw_cos_po_sobie_naglowek">Zostaw coś po sobie :)</span>
+    </div>
+
+    <div class="doswiadczenie">
+
+        <div class="ramka">
+            <form action="mailto:huberttd@wp.pl" method="post" enctype="text/plain">
+                <label for="email">Twój adres e-mail:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="4" maxlength="400" required></textarea>
+                <button type="submit" class="submit-button">Wyślij</button>
+            </form>
+        </div>
+
+    </div>
+
+    <div id="stopka">
+        <p id="stopka_opis">Aktualizacja: 11.03.2024 &copy; Hubert Świąder - Portfolio. Serdecznie zapraszam do
+            kontaktu i współpracy!</p>
+    </div>
+
+
+
+
+</div>
+
+
+</body>
+</html>

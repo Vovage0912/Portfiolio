@@ -1,0 +1,405 @@
+body {
+	background-color: #303030;
+	text-color: #FFFAFA;
+}
+
+#container {
+	width: 1600px;
+	background-color: #808080;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#menu {
+    width: 1560px;
+    background-color: #A9A9A9;
+    padding: 20px;
+    text-align: center;
+    border-top: 5px solid #696969;
+    border-bottom: 5px solid #696969;
+  }
+
+.menu_rectangle {
+	font-size: 20px;
+	font-color: white;
+	width: auto;
+	border-right: 2px dashed black;
+	text-align: center;
+	float: left;
+	padding: 15px;
+	font-weight: bold;
+	}
+
+	.menu_rectangle:hover {
+	font-style: italic;
+	text-decoration: underline;
+	}
+
+#top_bar{
+color: #C0C0C0;
+border-bottom: 5px solid #696969;
+height: 100px;
+width:1600px;
+}
+
+#cytat {
+
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    float: left;
+    margin-left: 515px;
+
+}
+
+#zegar {
+float: right;
+font-size: 30px;
+padding: 15px;
+font-weight: bold;
+margin-top: 13px;
+margin-right: 40px;
+
+
+}
+
+#cytat_podpis {
+    text-align: right;
+}
+
+.naglowek {
+    font-size: 35px;
+    background-color:#C0C0C0;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 25px;
+    padding: 10px;
+    display: inline-block;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000,1px  1px 0 #000;
+    color: 	#D3D3D3;
+}
+
+#Kim_jestem {
+width: 1560px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding: 20px;
+}
+
+#zdj_profilowe {
+    width: 475px;
+    height: 445px;
+    text-align: right;
+    float: left;
+    margin: auto;
+
+}
+
+#kim_jestem_opis {
+
+text-indent: 40px;
+padding: 10px;
+font-size: 25px;
+width: 980px;
+text-align: justify;
+margin-left: 40px;
+margin-right: auto;
+float: left;
+border: 3px dashed #DCDCDC;
+font-family: "Lato", sans-serif;
+margin-top: 18px;
+
+}
+
+.doswiadczenie {
+border: 3px dashed #DCDCDC;
+margin-top: 45px;
+font-size: 25px;
+margin-left: 55px;
+margin-right: auto;
+width: 1485px;
+}
+
+.opis_doswiadczenia {
+text-indent: 15px;
+font-family: "Lato", sans-serif;
+text-align: justify;
+padding-right: 40px;
+padding-bottom: 10px;
+}
+
+.stanowisko_pracy {
+font-weight: bold;
+font-style: italic;
+}
+
+.naglowek_wyksztalcenie {
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+border-bottom: 5px solid #696969;
+margin-bottom: 10px;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 5px;
+padding-top: 5px;
+margin-top: 60px;
+}
+
+.lista_wyksztalcenie {
+text-indent: 15px;
+list-style-type: none;
+font-weight: normal;
+font-style: normal;
+padding: 1px;
+font-size: 25px;
+font-family: "Lato", sans-serif;
+width:570px;
+}
+
+.wyksztalcenie_szkola {
+font-weight: bold;
+font-style: italic;
+}
+
+.wyksztalcenie_lista {
+margin-top: 15px;
+margin-bottom: 5px;
+float: left;
+}
+
+#obrazek_sowy {
+float: right;
+margin-right: 150px;
+margin-top: 80px;
+text-align: center;
+}
+
+#obrazek_jezyki {
+float: right;
+margin-right: 250px;
+margin-top: 20px;
+text-align: center;
+}
+
+.jezyki_lista {
+padding: 1px;
+font-size: 25px;
+font-family: "Lato", sans-serif;
+margin-bottom:8px;
+width:480px;
+}
+
+#umiejetnosci {
+font-family: "Lato", sans-serif;
+float: left;
+width: 1050px;
+margin-left: 38px;
+font-size: 25px;
+text-align: justify;
+padding: 10px;
+margin-top: 15px;
+
+
+}
+
+table {
+
+            border-collapse: separate;
+            width: 100%;
+            font-family: "Lato", sans-serif;
+            border-spacing: 30px;
+            font-size: 20px;
+
+
+
+        }
+
+        th, td {
+            border-bottom: 3px dotted black;
+            padding-bottom: 25px;
+            padding-left: 8px;
+            padding-right: 8px;
+            text-align: left;
+            margin-left: 10px;
+        }
+
+#obrazek_skills {
+margin-right: 55px;
+margin-top: 170px;
+float: right;
+}
+
+.organizator_kursu {
+font-style: normal;
+font-weight: normal;
+list-style-type: none;
+}
+
+.data_kursu {
+margin-top: 25px;
+
+width: 800px;
+
+}
+
+#obrazek_certyfikat {
+float: right;
+margin-top: 110px;
+margin-right: 70px;
+}
+
+
+#szachy_gif {
+float: left;
+margin-left: 170px;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+#rower_gif {
+float: right;
+margin-right: 170px;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+#hobby_opis {
+font-family: "Lato", sans-serif;
+text-indent: 40px;
+text-align: justify;
+margin-left: 25px;
+margin-right: 25px;
+
+}
+
+#detektyw_obrazek {
+margin-top: 35px;
+text-align: center;
+}
+
+#pudelko_socialmedia_zbior {
+width: 990px;
+height: 435px;
+margin-top: 20px;
+margin-bottom: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+#fb {
+float: left;
+width: 300px;
+height: 405px;
+background-color: rgb(59, 89, 152);
+margin: 15px;
+}
+
+#linkedin{
+float: left;
+width: 300px;
+height: 405px;
+background-color: rgb(10, 100, 200);
+margin: 15px;
+}
+
+#GitHub{
+float: left;
+width: 300px;
+height: 405px;
+background-color: rgb(39, 119, 69);
+margin: 15px;
+}
+
+#linkedin:hover {
+background-color: rgb(0, 80, 180);
+}
+
+#fb:hover {
+background-color: rgb(39, 69, 119);
+}
+
+#GitHub:hover {
+background-color: rgb(19, 100, 49);
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding-top: 15px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+input[type="email"],
+
+textarea {
+    width: 950px;
+    padding: 8px;
+    margin-bottom: 10px;
+    resize: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.ramka {
+margin: 15px;
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: #A9A9A9;
+}
+
+#stopka {
+margin-top: 35px;
+width: 1600px;
+background-color: #2F4F4F;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+border-top: 5px solid #696969;
+border-bottom: 5px solid #696969;
+}
+
+#stopka_opis {
+font-size: 15px;
+color: #DCDCDC;
+font-weight: bold;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.scrollup {
+width: 64px;
+text-decoration: none;
+position: fixed;
+right: 50px;
+bottom: 50px;
+display: none;
+}
